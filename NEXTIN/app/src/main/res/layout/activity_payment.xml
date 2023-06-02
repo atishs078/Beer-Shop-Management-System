@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/darkpurple"
+    tools:context=".TodaysDataInsertion">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="392dp"
+        android:layout_height="35dp"
+        android:background="@color/black"
+        android:text="OFFLINE PAYMENT"
+        android:textColor="@color/gold"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans"/>
+    <EditText
+        android:id="@+id/offlinepay"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:background="@color/white"
+        android:hint="payment" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="392dp"
+        android:layout_height="35dp"
+        android:background="@color/black"
+        android:layout_below="@id/offlinepay"
+        android:text="ONLINE PAYMENT"
+        android:textColor="@color/gold"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans"/>
+    <EditText
+        android:id="@+id/onlinepay"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:background="@color/white"
+        android:hint="payment" />
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="392dp"
+        android:layout_height="35dp"
+        android:background="@color/black"
+        android:text="Total"
+        android:layout_below="@+id/onlinepay"
+        android:textColor="@color/gold"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/da"
+        android:clickable="true"
+        android:layout_width="390dp"
+        android:layout_below="@id/to"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+       >
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="406dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:fontFamily="@font/opensans"
+
+            android:gravity="left"
+            android:text="Total= "
+            android:textColor="@color/gold"
+            android:textSize="26sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="374dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/da"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/gold"
+        android:fontFamily="@font/opensans"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+</RelativeLayout>

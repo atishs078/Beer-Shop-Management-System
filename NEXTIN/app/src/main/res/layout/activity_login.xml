@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="211dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="284dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/opensans"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="BEER SHOP"
+            android:textColor="@color/gold"
+            android:textSize="35dp" />
+
+        <EditText
+
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/nameTextView"
+            android:background="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/opensans"
+            android:hint="Enter email address"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/white"
+            android:fontFamily="@font/opensans"
+            android:inputType="textPassword"
+            android:hint="Enter password"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/gold"
+            android:fontFamily="@font/opensans"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+
+        </Button>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">A.S Beer Shop</string>
+    <string name="welcome">A.S Beer Shop,Bembli</string>
+    <string name="login">Todays Sale</string>
+    <string name="login1">Add New Stock</string>
+    <string name="login2">Check Stock</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="logina">Login</string>
+    <string name="app_name1">Navigation Drawer</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="about">Welcome to A.S Beer Shop, the ultimate app designed exclusively for bear shop owners like you! We understand the unique challenges and intricacies of managing a bear shop, and thats why weve created this powerful tool to streamline your operations and boost your business</string>
+
+    <string-array name="Quantity">
+        <item>650</item>
+        <item>330</item>
+        <item>500</item>
+
+    </string-array>
+</resources>
